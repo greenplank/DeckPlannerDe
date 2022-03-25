@@ -7,11 +7,11 @@ export default {
     German: "	Umwelt	",
   },
   texture: {
-    English: "Decking Boards",
-    Dutch: "Terrasplanken",
-    Danish: "Prydbrædder",
-    Swedish: "Trädgårdsbrädor",
-    German: "	Terrassendielen	",
+    English: "Profile",
+    Dutch: "Profiel",
+    Danish: "Profil",
+    Swedish: "profil",
+    German: "	Profil	",
   },
   calculation: {
     English: "	Calculation	",
@@ -35,51 +35,47 @@ export default {
     Swedish: "	Alla	",
     German: "	alle	",
   },
-  classic: {
-    English: "	Classic	",
-    Dutch: "	Classic	",
-    Danish: "	Classic	",
-    Swedish: "	Classic	",
-    German: "	Classic	",
+  smart_classic: {
+    English: "	Smart Classic	",
+    Dutch: "	Smart Classic	",
+    Danish: "	Smart Classic	",
+    Swedish: "	Smart Classic	",
+    German: "	Smart Classic	",
   },
-  entra_side: {
-    English: "	Entra Side	",
-    Dutch: "	Entra Side	",
-    Danish: "	Entra Side	",
-    Swedish: "	Entra	",
-    German: "	Entra	",
+  smart_regular: {
+    English: "	Smart Regular 	",
+    Dutch: "	Smart Regular 	",
+    Danish: "	Smart Regular 	",
+    Swedish: "	Smart Regular	",
+    German: "	Smart Regular	",
   },
-  ever_deck: {
-    English: "	Ever Deck	",
-    Dutch: "	Ever Deck	",
-    Danish: "	Ever Deck	",
-    Swedish: "	Everdeck	",
-    German: "	Everdeck	",
+  smart_marine: {
+    English: "	Smart marine	",
+    Dutch: "	Smart marine	",
+    Danish: "	Smart marine	",
+    Swedish: "	Smart marine	",
+    German: "	Smart marine	",
+  },
+  smart_natural: {
+    English: "	Smart Natural	",
+    Dutch: "	Smart Natural	",
+    Danish: "	Smart Natural	",
+    Swedish: "	Smart Natural	",
+    German: "	Smart Natural	",
   },
 
+  //multilanguge rename
+
+  smart_cap: {
+    English: "Ultra Smart	",
+    Dutch: "	Ultra Smart	",
+    Danish: "	Ultra Smart	",
+    Swedish: "	Ultra Smart	",
+    German: "	Ultra Smart	",
+  },
+  
   //multilanguage rename
-  marine_art: {
-    English: "	Marine Art	",
-    Dutch: "	Marine Art	",
-    Danish: "	Marine Art	",
-    Swedish: "	Marine Art	",
-    German: "	Marine	Art",
-  },
-  marine_jumbo: {
-    English: "	Marine Jumbo	",
-    Dutch: "	Marine Jumbo	",
-    Danish: "	Marine Jumbo",
-    Swedish: "	Marine Jumbo	",
-    German: "	Marine	Jumbo",
-  },
-  marine_cap: {
-    English: "	Marine Cap	",
-    Dutch: "	Marine Cap	",
-    Danish: "	Marine Cap	",
-    Swedish: "	Marine Cap	",
-    German: "	Marine	Cap ",
-  },
-
+  
   marine_40: {
     English: "	Marine 40	",
     Dutch: "	Marine 40	",
@@ -95,45 +91,49 @@ export default {
     Swedish: "	Marine 60	",
     German: "	Marine	60 ",
   },
-  smart_classic: {
-    English: "	Smart Classic	",
-    Dutch: "	Smart Classic	",
-    Danish: "	Smart Classic	",
-    Swedish: "	Smart Classic	",
-    German: "	Smart Classic	",
+  marine_cap: {
+    English: "	Marine Cap	",
+    Dutch: "	Marine Cap	",
+    Danish: "	Marine Cap	",
+    Swedish: "	Marine Cap	",
+    German: "	Marine	Cap ",
   },
-  smart_natural: {
-    English: "	Smart Natural	",
-    Dutch: "	Smart Natural	",
-    Danish: "	Smart Natural	",
-    Swedish: "	Smart Natural	",
-    German: "	Smart Natural	",
+  marine_art: {
+    English: "	Marine Art	",
+    Dutch: "	Marine Art	",
+    Danish: "	Marine Art	",
+    Swedish: "	Marine Art	",
+    German: "	Marine	Art",
   },
-  smart_regular: {
-    English: "	Smart Regular 	",
-    Dutch: "	Smart Regular 	",
-    Danish: "	Smart Regular 	",
-    Swedish: "	Smart Regular	",
-    German: "	Smart Regular	",
+  marine_jumbo: {
+    English: "	Marine Jumbo	",
+    Dutch: "	Marine Jumbo	",
+    Danish: "	Marine Jumbo",
+    Swedish: "	Marine Jumbo	",
+    German: "	Marine	Jumbo",
   },
-
-  //multilanguge rename
-  smart_marine: {
-    English: "	Smart marine	",
-    Dutch: "	Smart marine	",
-    Danish: "	Smart marine	",
-    Swedish: "	Smart marine	",
-    German: "	Smart marine	",
+  entra_side: {
+    English: "	Entra Side	",
+    Dutch: "	Entra Side	",
+    Danish: "	Entra Side	",
+    Swedish: "	Entra	",
+    German: "	Entra	",
   },
-
-  smart_cap: {
-    English: "	Smart Cap	",
-    Dutch: "	Smart Cap	",
-    Danish: "	Smart Cap	",
-    Swedish: "	Smart Cap	",
-    German: "	Smart Cap	",
+  
+  classic: {
+    English: "	Classic	",
+    Dutch: "	Classic	",
+    Danish: "	Classic	",
+    Swedish: "	Classic	",
+    German: "	Classic	",
   },
-
+  ever_deck: {
+    English: "	Ever Deck	",
+    Dutch: "	Ever Deck	",
+    Danish: "	Ever Deck	",
+    Swedish: "	Everdeck	",
+    German: "	Everdeck	",
+  },
   back: {
     English: "	Back	",
     Dutch: "	Terug	",
