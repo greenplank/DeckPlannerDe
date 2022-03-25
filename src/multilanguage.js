@@ -7,11 +7,11 @@ export default {
     German: "	Umwelt	",
   },
   texture: {
-    English: "	Texture	",
-    Dutch: "	Textuur	",
-    Danish: "	Struktur	",
-    Swedish: "	Textur	",
-    German: "	Struktur	",
+    English: "Decking Boards",
+    Dutch: "Terrasplanken",
+    Danish: "Prydbrædder",
+    Swedish: "Trädgårdsbrädor",
+    German: "	Terrassendielen	",
   },
   calculation: {
     English: "	Calculation	",
