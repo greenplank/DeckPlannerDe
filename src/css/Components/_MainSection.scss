@@ -85,7 +85,7 @@
   transition: all 0.3s;
 }
 .inner-tab label:hover {
-  background: green;
+  background: #C11E2F;
   transition: all 0.3s;
   color: white;
 }
@@ -114,7 +114,7 @@
 }
 .inner-tab [type="radio"]:checked ~ label {
   color: white;
-  background: green;
+  background: #C11E2F;
 }
 .inner-tab [type="radio"]:checked ~ label ~ .inner-content {
   left: 0;
@@ -249,11 +249,11 @@ ul.nav {
   transition-duration: 0.4s;
 }
 .nav a:hover {
-  background: green;
+  background: #C11E2F;
   color: white;
 }
 .nav .active {
-  background-color: green !important;
+  background-color: #C11E2F !important;
   color: #fff;
 }
 
@@ -306,10 +306,10 @@ ul.nav {
 
 /* Calcluation Tab Start */
 .calac-input:focus {
-  border: 1px solid green !important;
+  border: 1px solid #C11E2F !important;
 }
 .calac-input:focus ~ label {
-  color: green !important;
+  color: #C11E2F !important;
 }
 .calac-input + label {
   user-select: none;

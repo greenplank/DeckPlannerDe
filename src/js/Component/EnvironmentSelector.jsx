@@ -52,7 +52,7 @@ const EnvironmentSelector = ({
               }}
               key={key}
               className={`custTabNavMenu btn btn-${
-                selected_enviroment == key ? "success" : "outline-success"
+                selected_enviroment == key ? "danger" : "outline-danger"
               } mt-2 mr-2`}
             >
               {multi_lang[key][selected_language]}
@@ -84,7 +84,7 @@ const EnvironmentSelector = ({
                     clipPath: "polygon(100% 0, 0 0, 0 100%)"
                   }}
                   className={`checker bg-${
-                    vari.name.trim() == scene.trim() ? "success" : "light"
+                    vari.name.trim() == scene.trim() ? "danger" : "light"
                   }`}
                 >
                   <CheckIcon color="inherit" />

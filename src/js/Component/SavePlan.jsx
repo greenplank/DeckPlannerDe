@@ -16,8 +16,8 @@ const SavePlan = ({ email, set_email, save_plan, error }) => {
         <p className={`alert alert-danger d-${Boolean(error.trim())?"":'none'}`}><small>{error}</small></p>
       </div>
       <div className="d-flex justify-content-center">
-          <button className="btn-success btn" onClick={save_plan}>Save Plan</button>
-          <button className="btn-danger btn" style={{marginLeft:"1em"}}><a style={{textDecoration:"none",color:"white"}} href="https://ebygghandel.se/tradgard/komposittrall.html">Shop Now</a></button>
+          <button className="btn-danger btn" onClick={save_plan}>Gem plan</button>
+          <button className="btn-danger btn" style={{marginLeft:"1em"}}><a style={{textDecoration:"none",color:"white"}} href="http://bygfix.dk/">Køb nu</a></button>
       </div>
     </>
   );
