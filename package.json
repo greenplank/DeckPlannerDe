@@ -1,6 +1,9 @@
 {
   "name": "green-plank",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.17.6"
+  },
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -23,7 +26,6 @@
     "react-slick": "^0.25.2",
     "validator": "^13.7.0"
   },
-  
   "scripts": {
     "start": "node server/app.js",
     "start-dev": "react-scripts start",
