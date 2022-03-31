@@ -35,7 +35,7 @@ const lang = [
 ];
 class App extends React.Component {
   state = {
-    selected_language: "Swedish",
+    selected_language: "German",
   };
 
   set_lang = (lang) => {

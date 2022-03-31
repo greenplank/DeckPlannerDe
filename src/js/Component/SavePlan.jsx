@@ -18,7 +18,7 @@ const SavePlan = ({ email, set_email, save_plan, error }) => {
       <div className="d-flex justify-content-center">
           <button className="btn-success btn" onClick={save_plan}>Spara plan
 </button>
-          <button className="btn-success btn" style={{marginLeft:"1em"}}><a style={{textDecoration:"none",color:"white"}} href="https://ebygghandel.se/">Shoppa nu
+          <button className="btn-success btn" style={{marginLeft:"1em"}}><a style={{textDecoration:"none",color:"white"}} href="https://wpcholz.de/">Shop Now
 </a></button>
       </div>
     </>
