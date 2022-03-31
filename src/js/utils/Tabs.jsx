@@ -77,7 +77,7 @@ export default function ScrollableTabsButtonAuto(props) {
             {tab.component}
             <div className={`controls d-flex justify-content-between ${value==0?"flex-row-reverse":''}`}>
               <button className={`btn btn-warning text-white btn-sm d-${value==0?"none":''}`} onClick={e=>handleChange(e, value-1)}>{lang_var['back'][props.selected_language]}</button>
-              <button className={`btn btn-danger btn-sm d-${value== (props.tabs.length-1)?"none":''}`} onClick={e=>handleChange(e, value+1)}>{lang_var['next'][props.selected_language]}</button>
+              <button className={`btn btn-success btn-sm d-${value== (props.tabs.length-1)?"none":''}`} onClick={e=>handleChange(e, value+1)}>{lang_var['next'][props.selected_language]}</button>
             </div>
           </div>
         </TabPanel>

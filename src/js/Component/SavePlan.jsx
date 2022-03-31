@@ -13,11 +13,13 @@ const SavePlan = ({ email, set_email, save_plan, error }) => {
           id="Email"
           placeholder="yourmail@example.com"
         />
-        <p className={`alert alert-danger d-${Boolean(error.trim())?"":'none'}`}><small>{error}</small></p>
+        <p className={`alert alert-success d-${Boolean(error.trim())?"":'none'}`}><small>{error}</small></p>
       </div>
       <div className="d-flex justify-content-center">
-          <button className="btn-danger btn" onClick={save_plan}>Gem plan</button>
-          <button className="btn-danger btn" style={{marginLeft:"1em"}}><a style={{textDecoration:"none",color:"white"}} href="http://bygfix.dk/">Køb nu</a></button>
+          <button className="btn-success btn" onClick={save_plan}>Spara plan
+</button>
+          <button className="btn-success btn" style={{marginLeft:"1em"}}><a style={{textDecoration:"none",color:"white"}} href="https://ebygghandel.se/">Shoppa nu
+</a></button>
       </div>
     </>
   );

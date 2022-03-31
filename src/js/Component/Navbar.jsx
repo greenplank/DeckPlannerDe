@@ -9,7 +9,7 @@ class Navbar extends React.Component {
         <nav className="navbar main-navbar px-5 navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand" href="/">
             <img
-              src="./images/Bygfix-Logo.png"
+              src="./images/ebygghandel-new.png"
               alt="Logo"
               width="170"
               height="100%"

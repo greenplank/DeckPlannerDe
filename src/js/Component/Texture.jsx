@@ -76,7 +76,7 @@ const Textures = (props) => {
                 key={cato}
                 onClick={() => onSelectCat(cato)}
                 className={`custTabNavMenu btn btn-${
-                  cat == cato ? "danger" : "outline-danger"
+                  cat == cato ? "success" : "outline-success"
                 } btn-sm mr-2 mb-2`}
               >
                 {/* {cato} */}
@@ -121,7 +121,7 @@ const Textures = (props) => {
                       className={`checker bg-${
                         props.selected_board.st_name.trim() ==
                         texture.st_name.trim()
-                          ? "danger"
+                          ? "success"
                           : "light"
                       }`}
                     >
@@ -129,7 +129,7 @@ const Textures = (props) => {
                     </div>
                     <img
                       style={{ width: "120px", height: "100px" }}
-                      className={`border border-danger`}
+                      className={`border border-success`}
                       src={texture.img}
                       alt=""
                     />
